@@ -13,9 +13,6 @@
   ],
   "author": "Gabriel Llamas <gagle@outlook.com>",
   "repository": "git://github.com/gagle/node-hex.git",
-  "engines": {
-    "node": ">=0.10"
-  },
   "license": "MIT",
   "devDependencies": {
     "tape": "^3.5.0"
