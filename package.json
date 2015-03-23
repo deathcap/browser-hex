@@ -25,7 +25,7 @@
     "buffer"
   ],
   "author": "Gabriel Llamas <gagle@outlook.com>",
-  "repository": "git://github.com/gagle/node-hex.git",
+  "repository": "git://github.com/deathcap/browser-hex.git",
   "license": "MIT",
   "devDependencies": {
     "tape": "^3.5.0"
