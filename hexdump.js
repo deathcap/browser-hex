@@ -19,14 +19,13 @@ module.exports = function (buffer) {
     str += ' ';
   }
 
-  str = /*'\u001b[36m' +*/ str + '  ';
+  str += '  ';
 
   var i;
   for (i = 0; i < 16; i++) {
     str += ' ' + zero(i, 2);
   }
 
-  //str += '\u001b[0m\n';
   if (buffer.length) str += '\n';
 
   var b = 0;
@@ -35,7 +34,7 @@ module.exports = function (buffer) {
   var v;
 
   for (i = 0; i < rows; i++) {
-    str += /*'\u001b[36m' +*/ zero(b, offsetLength) + /*'\u001b[0m  '*/ '  ';
+    str += zero(b, offsetLength) + '  ';
     lastBytes = i === rows - 1 ? last : 16;
     lastSpaces = 16 - lastBytes;
 
@@ -61,7 +60,5 @@ module.exports = function (buffer) {
     str += '\n';
   }
 
-  //process.stdout.write(str);
-  //console.log(str);
   return str;
 };
