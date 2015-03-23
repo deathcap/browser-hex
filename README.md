@@ -5,6 +5,8 @@ browser-hex
 
 [![npm][npm-image]][npm-url]
 
+[![Build Status](https://travis-ci.org/deathcap/browser-hex.png)](https://travis-ci.org/deathcap/browser-hex)
+
 Based on [hex](https://www.npmjs.com/package/hex) but simplified for use with [browserify](https://www.npmjs.com/package/browserify)
 (no ANSI escape codes, returns string instead of writing to stdout)
 
