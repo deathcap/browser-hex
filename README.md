@@ -1,16 +1,19 @@
-hex
-===
+browser-hex
+===========
 
 #### Pretty-prints a Buffer ####
 
 [![npm][npm-image]][npm-url]
 
-___module_(buffer) : undefined__  
+Based on [hex](https://www.npmjs.com/package/hex) but simplified for use with [browserify](https://www.npmjs.com/package/browserify)
+(no ANSI escape codes, returns string instead of writing to stdout)
+
+___module_(buffer) : string__
 Prints the Buffer. No configuration, just give it a Buffer.
 
 ```javascript
-var hex = require('hex');
-hex(buffer);
+var hex = require('browser-hex');
+console.log(hex(buffer));
 ```
 
 ```
@@ -31,4 +34,4 @@ Offset   00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F
 ```
 
 [npm-image]: http://img.shields.io/npm/v/hex.svg?style=flat
-[npm-url]: https://npmjs.org/package/hex
+[npm-url]: https://npmjs.org/package/browser-hex

@@ -1,5 +1,5 @@
 {
-  "name": "hex",
+  "name": "browser-hex",
   "version": "0.1.0",
   "description": "Pretty-prints a Buffer",
   "main": "hexdump.js",
