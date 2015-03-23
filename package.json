@@ -2,6 +2,7 @@
   "name": "hex",
   "version": "0.1.0",
   "description": "Pretty-prints a Buffer",
+  "main": "hexdump.js",
   "keywords": [
     "hex",
     "print",
@@ -12,6 +13,5 @@
   "engines": {
     "node": ">=0.10"
   },
-  "license": "MIT",
-  "main": "lib"
+  "license": "MIT"
 }
