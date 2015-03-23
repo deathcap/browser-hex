@@ -61,5 +61,6 @@ module.exports = function (buffer) {
     str += '\n';
   }
 
-  process.stdout.write(str);
+  //process.stdout.write(str);
+  console.log(str);
 };
