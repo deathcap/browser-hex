@@ -19,7 +19,7 @@ module.exports = function (buffer) {
     str += ' ';
   }
 
-  str = /*'\u001b[36m' +*/ str + ' ';
+  str = /*'\u001b[36m' +*/ str + '  ';
 
   var i;
   for (i = 0; i < 16; i++) {
@@ -35,7 +35,7 @@ module.exports = function (buffer) {
   var v;
 
   for (i = 0; i < rows; i++) {
-    str += /*'\u001b[36m' +*/ zero(b, offsetLength) + /*'\u001b[0m  '*/ + '  ';
+    str += /*'\u001b[36m' +*/ zero(b, offsetLength) + /*'\u001b[0m  '*/ '  ';
     lastBytes = i === rows - 1 ? last : 16;
     lastSpaces = 16 - lastBytes;
 
