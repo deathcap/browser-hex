@@ -19,7 +19,7 @@ module.exports = function (buffer) {
     str += ' ';
   }
 
-  str = /*'\u001b[36m' +*/ str + '  ';
+  str = /*'\u001b[36m' +*/ str + ' ';
 
   var i;
   for (i = 0; i < 16; i++) {
