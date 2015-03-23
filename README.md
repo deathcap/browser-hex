@@ -7,6 +7,8 @@ browser-hex
 
 [![Build Status](https://travis-ci.org/deathcap/browser-hex.png)](https://travis-ci.org/deathcap/browser-hex)
 
+[![browser support](https://ci.testling.com/deathcap/browser-hex.png)](https://ci.testling.com/deathcap/browser-hex)
+
 Based on [hex](https://www.npmjs.com/package/hex) but simplified for use with [browserify](https://www.npmjs.com/package/browserify)
 (no ANSI escape codes, returns string instead of writing to stdout)
 
